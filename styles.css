@@ -1,0 +1,214 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg,rgb(5, 5, 141),#da086a,#067091,#23D5AB);
+
+    background-size: 400% 400% ;
+    position:absolute;
+    animation: change 10s ease-in-out infinite;
+}
+
+h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    padding:5rem 10rem;
+    white-space: nowrap;
+    
+
+}
+h2{ font-size: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 35%;
+    left: 57%;
+    font-size: large;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+    
+}
+h3{
+    position: absolute;
+    line-height: 45pt;
+    top: 50%;
+    left: 42%;
+    font-size: large;
+    font-family: "italic",Arial,sans-serif;
+
+}
+
+.pic{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+
+}
+.pic1{
+    position: absolute;
+    left: 1%;
+    top: 50%;
+}
+
+
+@keyframes change {
+    0%{
+        background-position: 0 50% ;
+    }
+    50%{
+        background-position: 100% 50% ;
+    }
+    100%{
+        background-position: 0 50% ;
+    }
+}
+.bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+
+.bubbles{
+    
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    bottom: -100px;
+    position: absolute;
+    
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 27px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3.4s;
+    width: 24px;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 2s;
+    width: 25px;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 6s;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 7s;
+    width: 30px;
+}
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+#header {
+    background:#ededed;
+    
+}
+#content {
+    padding-bottom:100px; /* Height of the footer element */
+}
+#footer {
+    background:#010846;
+    width:100%;
+    height:120px;
+    position:absolute;
+    bottom:-13%;
+    left:0;
+}
+.made{
+    color: #fff;
+
+}
+.social-menu ul {
+    position: absolute;
+    top: 103%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #030916;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #0077B5;
+}
