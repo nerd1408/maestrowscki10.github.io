@@ -9,7 +9,7 @@
 html
 {
     font-size: 10px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Tahoma', serif;
 }
 
 section{
@@ -37,24 +37,24 @@ h1{
     
 
 }
-h2{ font-size: 10px;
+h2{ font-size: 15px;
     text-transform: uppercase;
     position: absolute;
     top: 35%;
     left: 57%;
     font-size: large;
     letter-spacing: 2px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Trebuchet', serif
 
     
 }
 h3{
     position: absolute;
-    line-height: 45pt;
+    line-height: 25px;
     top: 50%;
-    left: 42%;
-    font-size: large;
-    font-family: "italic",Arial,sans-serif;
+    left: 40%;
+    font-size: medium;
+    font-family: "Tahoma",Arial,sans-serif;
 
 }
 
